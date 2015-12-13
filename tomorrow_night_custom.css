@@ -97,7 +97,7 @@
   .ajax-pagination-btn, .markdown-body a[href*="/labels/"],
   .select-menu-action:hover, .wiki-wrapper .wiki-history .commit-id:hover,
   .milestone-title-link a:hover {
-    color: #4183C4 !important;
+    color: #49a1ea !important;
   }
   /* Base color panel */
   .btn:active, option:hover, .listings-layout .nav li a:hover, .state-merged,
@@ -178,7 +178,7 @@
   /* === Inputs === */
   select, input, textarea {
     -moz-appearance: none !important;
-    background: #181818 !important;
+     background: #3C3F41 !important;
     border: 1px solid #343434 !important;
     color: #eee !important;
   }
@@ -725,14 +725,14 @@
   .discussion-item-merged.open .discussion-item-details, .word-upload-callout,
   .commit-tease-contributors, .ajax-pagination-form .ajax-pagination-btn,
   .access-form-wrapper {
-    background: #181818 !important;
+     background: #3C3F41 !important;
     border-color: #343434 !important;
   }
   #readme .plain, .readme .markdown-body, .readme .plain, .pull-request-composer,
   .drag-and-drop, .octofication .broadcast-icon-mask, .file .image,
   .merge-pr-more-commits, .release-timeline-tags .expander-dots,
   .coupons .coupon-form-body, .manage-repo-access-group {
-    background: #181818 !important;
+     background: #3C3F41 !important;
     border-color: #484848 !important;
   }
   .header, .headers, #readme .markdown-body, .social-count, .file, .box-body,
@@ -764,7 +764,7 @@
   .gist-quicksearch-result-header, .label-generic, .migrate-org-roles,
   .commit-tease .commit-meta, .manage-repo-access-icon,
   .issues-listing .table-list, #org-members .table-list {
-    background: #181818 !important;
+     background: #3C3F41 !important;
   }
   .markdown-body table tr, .blob-num-context {
     background: #141414 !important;
@@ -776,7 +776,7 @@
   .expandable-line-num .diff-expander:hover, .select-menu-filters,
   .select-menu-modal, .pagination a, .blob-num[colspan], .build-status-item,
   .more-branches {
-    background: #1b1b1b !important;
+    background: #2a2a2c !important;
   }
   /* headers */
   .table-list-header, .timeline-comment-header, .boxed-group > h3,
@@ -786,7 +786,7 @@
   .commit-form, .comment-form-head.tabnav, .dashboard-notice,
   .migration-jumbotron, .migration-sub-header, .commit-tease,
   .manage-repo-access-title {
-    background: #1d1d1d !important;
+    background: #2e2f31 !important;
   }
   /* Navigation focus */
   .list-group-item.navigation-focus, .list-browser-item.navigation-focus,
@@ -803,7 +803,7 @@
   .line[style^="background-color: rgb(255, 255, 204)"],
   .oauth-org-access-details .boxed-group-list > li.on:hover, pre div:hover,
   table.files tr.navigation-focus td, .summary-stats li a:hover {
-    background: #242424 !important;
+    background: #333638 !important;
   }
   #main, .capped-box, .unread_count, #browser table th,
   .markdown-format table th, .session-device, .profilecols ul.stats li strong,
@@ -870,7 +870,7 @@
   /* let some background image show */
   .pagehead, .context-loader.large-format-loader, #graphs .loader, .sunken-menu,
   .org-header, .sunken-menu-contents, .render-shell .slider {
-    background: rgba(24, 24, 24, 0.4) !important;
+    background: #3C3F41 !important;
   }
   .starred-repo.navigation-focus, .marketing-section-stripe,
   .blob-expanded .blob-num, .blob-expanded .blob-code, .migration-section-grey {
@@ -1262,18 +1262,20 @@
   .gist .gist-file .gist-meta, .octotree_toggle, ul.comparison-list > li.title,
   button.button, a.button, span.button, button.minibutton, a.minibutton,
   span.minibutton, .clone-url-button > .clone-url-link {
-    background: linear-gradient(to bottom, #282828, #181818) !important;
+    background: linear-gradient(to bottom, #525759, #44494B) !important;
     border-color: #383838 !important;
+    font-weight: normal !important;
   }
   .search-form button, .box-header, .issues-list-actions, a.gollum-minibutton,
   a.gollum-minibutton:visited {
-    background: linear-gradient(to bottom, #282828, #181818) !important;
+    background: linear-gradient(to bottom, #525759, #44494B) !important;
+    border: 1px solid #5F6161 !important;
   }
   /* inverted dark grey gradient */
   .asc .sort-type, .desc .sort-type, .mini-bar-graph, .issues-list > ul > li.unread,
   .timeline-commits-header, .usage-bar dd, .render-bar {
     background: linear-gradient(to bottom, #181818, #282828) !important;
-    border-color: #383838 !important;
+    border: 1px solid #5F6161 !important;
   }
   /* vertical left border for side menu */
   .sunken-menu, .sunken-menu-contents {
@@ -1917,7 +1919,7 @@
   .ajax-pagination-form.loading .ajax-pagination-btn {
     position: relative !important;
     border-color: #343434 !important;
-    background: #181818 !important;
+     background: #3C3F41 !important;
   }
   .ajax-pagination-form.loading .ajax-pagination-btn:after {
     content: '' !important;
@@ -2198,7 +2200,7 @@
   li.zh-pipeline, li.new-pipeline-column, .zh-schema-pipelines,
   .zh-pipeline-issue-heading, .zh-connect-repository-container, .burndown-chart,
   .zh-todolist-box {
-    background: #181818 !important;
+     background: #3C3F41 !important;
     border-color: #484848 !important;
   }
   .zh-pipeline-issue-content, .zh-issue-meta, .zh-pipeline-issue-action,
@@ -2303,10 +2305,10 @@
   }
   /* webkit scrollbars */
   .zh-pipeline-issues-wrapper::-webkit-scrollbar-track {
-    background: #181818 !important;
+     background: #3C3F41 !important;
   }
   .zh-board-wrapper.horizontal-scrollbar::-webkit-scrollbar-track {
-    background: #181818 !important;
+     background: #3C3F41 !important;
   }
   .zh-board-wrapper.horizontal-scrollbar::-webkit-scrollbar-thumb {
     background: #444 !important;
@@ -2329,7 +2331,7 @@
   .content .sectionbody .dlist dt, .content p > tt,
   .content .sectionbody .dlist dt, .content p > tt, .commit-sha,
   .commit-preview .message pre, .rendered_html pre, .rendered_html code {
-    background: #202020 !important;
+    background: #2D3032 !important;
   }
   /* inline code - big blocks */
   pre, .markdown-format pre, .markdown-body pre, .markdown-format .highlight pre,
@@ -2337,7 +2339,7 @@
   .terminal, .copyable-terminal, #notebook .input_area, .blob-code-context,
     /*! Tomorrow Night */
   .ace_editor, .highlight {
-    background-color: #1D1F21 !important;
+    background-color: #2d3032 !important;
     color: #C5C8C6 !important
   }
   .pl-c, .pl-c span {
@@ -2647,7 +2649,7 @@
     background: #373B41 !important
   }
   .ace_editor.ace_multiselect .ace_selection.ace_start {
-    box-shadow: 0 0 3px 0 #1D1F21 !important;
+    box-shadow: 0 0 3px 0 #2B2B2B !important;
     border-radius: 2px !important
   }
   .ace_editor .ace_marker-layer .ace_step {
@@ -2713,7 +2715,7 @@
   }
   /*! tomorrow night; https://github.com/MozMorris/tomorrow-pygments */
   #notebook .highlight table {
-    background: #1d1f21 !important;
+    background: #2d3032 !important;
     color: #c5c8c6 !important
   }
   #notebook .highlight .hll {
@@ -2911,4 +2913,61 @@
   #notebook .highlight .il {
     color: #de935f !important
   }
+
+  /* =======================[ my patch ]====================================== */
+
+  table.files { font-family: 'Liberation Mono' !important;}
+
+  .header {
+    border-bottom: solid 1px #1e1f21 !important;
+    background-image: linear-gradient(to bottom, #404041, #373839) !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#404041), to(#373839)) !important;
+    background: linear-gradient(#404041, #373839) !important;
+    box-shadow: 0 1px 1px rgba(10,10,10,.01) !important;
+  }
+  .main-content {
+    background-color: #313335;
+  }
+
+  /*3d effect for reponav tabbar */
+  .reponav-item.selected, .pagehead-tabs-item.selected {
+    border-top: 1px solid #666666 !important;
+    border-left: 1px solid #666666 !important;
+    border-right: 1px solid #666666 !important;
+    border-bottom: none !important;
+    background-image: linear-gradient(to bottom, #404041, #313335) !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#404041), to(#313335)) !important;
+    background: linear-gradient(#404041, #313335) !important;
+    box-shadow: 0 -1px 0 #292B2D !important;
+    margin-top: 2px !important;
+    position: relative !important;
+    z-index: 11113 !important; /*more than div.pagehead.repohead:after z-index*/
+  }
+  div.pagehead.repohead, header.org-header, .pagehead-orgs {
+    position: relative !important;
+  }
+  div.pagehead.repohead:after, header.org-header:after, .pagehead-orgs:after {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    background-color: #666666;
+    height: 1px;
+    right: 0;
+    z-index: 11111; /*less than .reponav-item.selected z-index*/
+    display: block;
+    content: "";
+  }
+  div.pagehead.repohead:before, header.org-header:before, .pagehead-orgs:before {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    background-color: #292B2D;
+    height: 1px;
+    right: 0;
+    z-index: 11111; /*less than .reponav-item.selected z-index*/
+    display: block;
+    content: "";
+  }
+
+
 }
