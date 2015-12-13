@@ -1,6 +1,6 @@
 # GitHub Dark
 
-Forked from https://github.com/StylishThemes/GitHub-Dark and monkey pathed.
+Forked from https://github.com/StylishThemes/GitHub-Dark and monkey patched.
 Tomorrow Night, no bg image, Liberation Mono, a little bit less black.
 
 ## Preview
